@@ -1,4 +1,4 @@
-rootProject.name="monocular"
+rootProject.name="test"
 
 pluginManagement {
     val micronautVersion: String by settings
