@@ -12,7 +12,7 @@ val kotlinVersion=project.properties.get("kotlinVersion")
 repositories {
     mavenCentral()
 }
-graalvmNative.toolchainDetection.set(false)
+
 dependencies {
     ksp("io.micronaut:micronaut-http-validation")
     ksp("io.micronaut.serde:micronaut-serde-processor")
